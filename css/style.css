@@ -16,7 +16,7 @@ body._lock {
 }
 
 .title {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   font-size: 36px;
   font-weight: bold;
   text-align: center;
@@ -43,7 +43,7 @@ body._lock {
 
 .button {
   padding: 12px 28px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   text-align: center;
   color: #fff;
@@ -58,7 +58,7 @@ body._lock {
 }
 
 .text {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 14px;
   line-height: 1.5;
   color: #fff;
@@ -186,7 +186,7 @@ body._lock {
 }
 .menu__link {
   padding: 30px 15px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   color: #969696;
@@ -286,7 +286,7 @@ body._lock {
 }
 .elect-slide__desc {
   padding-top: 25px;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
 }
 .elect-slide__title {
   font-size: 18px;
@@ -480,7 +480,7 @@ body._lock {
   }
 }
 .post__title {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 0.1em;
@@ -499,7 +499,7 @@ body._lock {
   gap: 20px;
 }
 .post__tags {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 23px;
   letter-spacing: 0.1em;
@@ -546,14 +546,14 @@ body._lock {
 }
 .footer__title {
   padding-bottom: 40px;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   font-size: 24px;
   font-weight: 400;
   color: #fff;
   text-transform: uppercase;
 }
 .footer__desc {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;

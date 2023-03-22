@@ -17,7 +17,7 @@ body {
 }
 
 .title {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", serif;
     font-size: 36px;
     font-weight: bold;
     text-align: center;
@@ -42,7 +42,7 @@ body {
 
 .button {
     padding: 12px 28px;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 18px;
     text-align: center;
     color: #fff;
@@ -57,7 +57,7 @@ body {
 }
 
 .text {
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 14px;
     line-height: 1.5;
     color: #fff;
@@ -215,7 +215,7 @@ body {
 
     &__link {
         padding: 30px 15px;
-        font-family: "PT Sans";
+        font-family: "PT Sans", sans-serif;
         font-size: 14px;
         text-transform: uppercase;
         color: #969696;
@@ -344,7 +344,7 @@ body {
 
     &__desc {
         padding-top: 25px;
-        font-family: "Playfair Display";
+        font-family: "Playfair Display", serif;
     }
 
     &__title {
@@ -592,7 +592,7 @@ body {
     }
 
     &__title {
-        font-family: "PT Sans";
+        font-family: "PT Sans", sans-serif;
         font-weight: 400;
         font-size: 18px;
         letter-spacing: 0.1em;
@@ -616,7 +616,7 @@ body {
     &__btn {}
 
     &__tags {
-        font-family: "PT Sans";
+        font-family: "PT Sans", sans-serif;
         font-size: 18px;
         line-height: 23px;
         // text-align: right;
@@ -681,7 +681,7 @@ body {
 
     &__title {
         padding-bottom: 40px;
-        font-family: "Playfair Display";
+        font-family: "Playfair Display", serif;
         font-size: 24px;
         font-weight: 400;
         color: #fff;
@@ -689,7 +689,7 @@ body {
     }
 
     &__desc {
-        font-family: "PT Sans";
+        font-family: "PT Sans", sans-serif;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.5;
