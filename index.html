@@ -1,344 +1,574 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/swiper.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/swiper.js"></script>
-    <script defer src="js/script.js"></script>
-</head>
-<body>
-
-    <div class="topbar">
-        <div class="topbar__container">
-            <a class="topbar__info" href="tel:88121234567">
-                <img src="./img/icons/phone.svg" alt="phone">
-                <p>8 (812) 123-45-67 | Працюємо 7 днів на тиждень | 9:00 — 18:00</p>
-            </a>
-            <a class="topbar__login" href="#">
-                <img src="./img/icons/log-in.svg" alt="log-in">
-                <p>Вхід / Реєстрація</p>
-            </a>
-        </div>
-    </div>
-
-    <header class="header">
-        <div class="header__container ">
-            <a href="#" class="header__logo"><img src="./img/logos/porten-1.svg" alt="Porten"></a>
-            <div class="header__navigation">
-                <nav class="header__menu menu">
-                    <ul class="menu__body">
-                        <li class="menu__item"><a href="#" class="menu__link">сподобалось</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">особистий кабінет</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">налаштування</a></li>
-                    </ul>
-                </nav>
-                <div class="header__buttons">
-                    <a href="#" class="basket header__btn"><img src="./img/icons/basket.svg" alt="basket"></a>
-                    <a href="#" class="search header__btn"><img src="./img/icons/search.svg" alt="search"></a>
-                </div>
-                <div class="menu-icon">
-                    <span></span><span></span><span></span>
-                </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Landing</title>
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/swiper.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="js/swiper.js"></script>
+        <script defer src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="topbar">
+            <div class="topbar__container">
+                <a class="topbar__info" href="tel:88121234567">
+                    <img src="./img/icons/phone.svg" alt="phone" />
+                    <p>
+                        8 (812) 123-45-67 | Працюємо 7 днів на тиждень | 9:00 —
+                        18:00
+                    </p>
+                </a>
+                <a class="topbar__login" href="#">
+                    <img src="./img/icons/log-in.svg" alt="log-in" />
+                    <p>Вхід / Реєстрація</p>
+                </a>
             </div>
         </div>
 
-    </header>
-    
-    <main class="page">
-
-        <section class="hero">
-            <div class="hero__container">
-                <h1 class="hero__title">PORTEN Івано-Франківськ</h1>
-                <img class="hero__logo" src="./img/logos/porten-2.svg" alt="porten logo">
-                <p class="hero__description">
-                    В магазинах Торговельній мережі Porten ви можете купити годинник у Бахмуті, Вінниці, Дніпрі, Житомирі, Запоріжжі,
-                    Івано-Франківську, Києві, Краматорську, Луцьку, Львові, Одесі, Покровську, Полтаві, Рівному, Слов'янську, Сумах,
-                    Тернополі, Харкові, Херсоні, Хмельницькому, Черкасах, Чернівцях, Чернігові , а також багатьох інших містах України
-                </p>
+        <header class="header">
+            <div class="header__container">
+                <a href="#" class="header__logo"
+                    ><img src="./img/logos/porten-1.svg" alt="Porten"
+                /></a>
+                <div class="header__navigation">
+                    <nav class="header__menu menu">
+                        <ul class="menu__body">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">сподобалось</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link"
+                                    >особистий кабінет</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">налаштування</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__buttons">
+                        <a href="#" class="basket header__btn"
+                            ><img src="./img/icons/basket.svg" alt="basket"
+                        /></a>
+                        <a href="#" class="search header__btn"
+                            ><img src="./img/icons/search.svg" alt="search"
+                        /></a>
+                    </div>
+                    <div class="menu-icon">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
             </div>
-        </section>
+        </header>
 
-        <section class="elect">
-            <div class="elect__season">
-                <div class="season__wrapper">
-                    <h2 class="season__title title">СЕЗОН 2021/22</h2>
-                
-                    <div class="swiper elect-slider">
-                        <div class="swiper-wrapper elect-slider__wrapper">
-                            <div class="swiper-slide elect-slide">
-                                <div class="elect-slide__img-wrapper">
-                                    <img src="./img/watches/Louis XVI ATHOS.png" alt="Louis XVI ATHOS" class="elect-slide__img">
+        <main class="page">
+            <section class="hero">
+                <div class="hero__container">
+                    <h1 class="hero__title">PORTEN Івано-Франківськ</h1>
+                    <img
+                        class="hero__logo"
+                        src="./img/logos/porten-2.svg"
+                        alt="porten logo"
+                    />
+                    <p class="hero__description">
+                        В магазинах Торговельній мережі Porten ви можете купити
+                        годинник у Бахмуті, Вінниці, Дніпрі, Житомирі,
+                        Запоріжжі, Івано-Франківську, Києві, Краматорську,
+                        Луцьку, Львові, Одесі, Покровську, Полтаві, Рівному,
+                        Слов'янську, Сумах, Тернополі, Харкові, Херсоні,
+                        Хмельницькому, Черкасах, Чернівцях, Чернігові , а також
+                        багатьох інших містах України
+                    </p>
+                </div>
+            </section>
+
+            <section class="elect">
+                <div class="elect__season">
+                    <div class="season__wrapper">
+                        <h2 class="season__title title">СЕЗОН 2021/22</h2>
+
+                        <div class="swiper elect-slider">
+                            <div class="swiper-wrapper elect-slider__wrapper">
+                                <div class="swiper-slide elect-slide">
+                                    <div class="elect-slide__img-wrapper">
+                                        <img
+                                            src="./img/watches/Louis XVI ATHOS.webp"
+                                            alt="Louis XVI ATHOS"
+                                            class="elect-slide__img"
+                                        />
+                                    </div>
+                                    <div class="elect-slide__desc">
+                                        <p class="elect-slide__title">
+                                            Louis XVI ATHOS
+                                        </p>
+                                        <p class="elect-slide__price">
+                                            13 600 грн.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="elect-slide__desc">
-                                    <p class="elect-slide__title">Louis XVI ATHOS</p>
-                                    <p class="elect-slide__price">13 600 грн.</p>
+                                <div class="swiper-slide elect-slide">
+                                    <div class="elect-slide__img-wrapper">
+                                        <img
+                                            src="./img/watches/Carl von Zeyten.webp"
+                                            alt="Carl von Zeyten"
+                                            class="elect-slide__img"
+                                        />
+                                    </div>
+                                    <div class="elect-slide__desc">
+                                        <p class="elect-slide__title">
+                                            Carl von Zeyten
+                                        </p>
+                                        <p class="elect-slide__price">
+                                            16 500 грн.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide elect-slide">
+                                    <div class="elect-slide__img-wrapper">
+                                        <img
+                                            src="./img/watches/JORD AR5905.webp"
+                                            alt="JORD AR5905"
+                                            class="elect-slide__img"
+                                        />
+                                    </div>
+                                    <div class="elect-slide__desc">
+                                        <p class="elect-slide__title">
+                                            JORD AR5905
+                                        </p>
+                                        <p class="elect-slide__price">
+                                            65 000 грн.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide elect-slide">
+                            <div class="swiper-buttons">
+                                <div
+                                    class="swiper-button-prev elect-slider-prev"
+                                ></div>
+                                <div
+                                    class="swiper-button-next elect-slider-next"
+                                ></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elect__newcoll">
+                    <div class="newcoll__wrapper">
+                        <h2 class="newcoll__title title">Нова колекція</h2>
+                        <button class="newcoll__btn button">Каталог</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="coll">
+                <div class="coll__img-wrapper">
+                    <img
+                        class="coll__img"
+                        src="./img/2018-collection.webp"
+                        alt="2018-collection"
+                    />
+                </div>
+                <div class="coll__content-wrapper">
+                    <div class="coll__content">
+                        <h2 class="coll__title title">колекція 2018</h2>
+                        <p class="coll__desc text">
+                            Годинники як інструмент визначення часу давно і
+                            надійно прижилися в людській реальності. Романтики
+                            та прагматики, художники та бізнесмени, чоловіки та
+                            жінки, дорослі та діти - всі хочуть знати котра
+                            година в потрібний момент. Скільки хвилин пройшло,
+                            скільки залишилося, а ще - які саме моделі і якого
+                            бренду виблискують на руці у друга, коханої або
+                            конкурента. З давніх часів, коли людина здогадався
+                            втикнути в землю паличку та іншою поличкою взявся
+                            відміряти рівні проміжки часу на піску, не вщухають
+                            суперечки - яким повинний бути годинник? Наручним,
+                            або настільним, або настінним, або, нарешті,
+                            підлоговим? Чому ж кожен діамантик на безеле або
+                            шестерінка в механізмі незмінно змушують гордовито
+                            випнутися нижню губу володаря аксесуара, а щоки -
+                            роздутися?
+                        </p>
+                        <button class="coll__btn button">
+                            переглянути колекцію
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="novelties">
+                <div class="novelties__container">
+                    <h2 class="novelties__title title">Нові надходження</h2>
+                    <div class="swiper novelties-slider">
+                        <div class="swiper-wrapper novelties-slider__wrapper">
+                            <div
+                                class="swiper-slide elect-slide novelties-slide"
+                            >
                                 <div class="elect-slide__img-wrapper">
-                                    <img src="./img/watches/Carl von Zeyten.png" alt="Carl von Zeyten" class="elect-slide__img">
+                                    <img
+                                        src="./img/watches/Louis XVI ATHOS.webp"
+                                        alt="Louis XVI ATHOS"
+                                        class="elect-slide__img"
+                                    />
                                 </div>
                                 <div class="elect-slide__desc">
-                                    <p class="elect-slide__title">Carl von Zeyten</p>
-                                    <p class="elect-slide__price">16 500 грн.</p>
+                                    <p class="elect-slide__title">
+                                        Louis XVI ATHOS
+                                    </p>
+                                    <p class="elect-slide__price">
+                                        13 600 грн.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="swiper-slide elect-slide">
+                            <div
+                                class="swiper-slide elect-slide novelties-slide"
+                            >
                                 <div class="elect-slide__img-wrapper">
-                                    <img src="./img/watches/JORD AR5905.png" alt="JORD AR5905" class="elect-slide__img">
+                                    <img
+                                        src="./img/watches/Carl von Zeyten.webp"
+                                        alt="Carl von Zeyten"
+                                        class="elect-slide__img"
+                                    />
                                 </div>
                                 <div class="elect-slide__desc">
-                                    <p class="elect-slide__title">JORD AR5905</p>
-                                    <p class="elect-slide__price">65 000 грн.</p>
+                                    <p class="elect-slide__title">
+                                        Carl von Zeyten
+                                    </p>
+                                    <p class="elect-slide__price">
+                                        16 500 грн.
+                                    </p>
                                 </div>
+                            </div>
+                            <div
+                                class="swiper-slide elect-slide novelties-slide"
+                            >
+                                <div class="elect-slide__img-wrapper">
+                                    <img
+                                        src="./img/watches/JORD AR5905.webp"
+                                        alt="JORD AR5905"
+                                        class="elect-slide__img"
+                                    />
+                                </div>
+                                <div class="elect-slide__desc">
+                                    <p class="elect-slide__title">
+                                        JORD AR5905
+                                    </p>
+                                    <p class="elect-slide__price">
+                                        65 000 грн.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="swiper-slide elect-slide novelties-slide"
+                            >
+                                <div class="elect-slide__img-wrapper">
+                                    <img
+                                        src="./img/watches/Emporio Armani Sportivo.webp"
+                                        alt="Emporio Armani Sportivo"
+                                        class="elect-slide__img"
+                                    />
+                                </div>
+                                <div class="elect-slide__desc">
+                                    <p class="elect-slide__title">
+                                        Emporio Armani Sportivo
+                                    </p>
+                                    <p class="elect-slide__price">
+                                        280 000 грн.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="swiper-slide elect-slide novelties-slide"
+                            >
+                                <div class="elect-slide__img-wrapper">
+                                    <img
+                                        src="./img/watches/JORD AR5905.webp"
+                                        alt="JORD AR5905"
+                                        class="elect-slide__img"
+                                    />
+                                </div>
+                                <div class="elect-slide__desc">
+                                    <p class="elect-slide__title">
+                                        JORD AR5905
+                                    </p>
+                                    <p class="elect-slide__price">
+                                        65 000 грн.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="swiper-slide elect-slide novelties-slide"
+                            >
+                                <div class="elect-slide__img-wrapper">
+                                    <img
+                                        src="./img/watches/Louis XVI ATHOS.webp"
+                                        alt="Louis XVI ATHOS"
+                                        class="elect-slide__img"
+                                    />
+                                </div>
+                                <div class="elect-slide__desc">
+                                    <p class="elect-slide__title">
+                                        Louis XVI ATHOS
+                                    </p>
+                                    <p class="elect-slide__price">
+                                        13 600 грн.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="swiper-slide elect-slide novelties-slide"
+                            >
+                                <div class="elect-slide__img-wrapper">
+                                    <img
+                                        src="./img/watches/Carl von Zeyten.webp"
+                                        alt="Carl von Zeyten"
+                                        class="elect-slide__img"
+                                    />
+                                </div>
+                                <div class="elect-slide__desc">
+                                    <p class="elect-slide__title">
+                                        Carl von Zeyten
+                                    </p>
+                                    <p class="elect-slide__price">
+                                        16 500 грн.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="swiper-slide elect-slide novelties-slide"
+                            >
+                                <div class="elect-slide__img-wrapper">
+                                    <img
+                                        src="./img/watches/JORD AR5905.webp"
+                                        alt="JORD AR5905"
+                                        class="elect-slide__img"
+                                    />
+                                </div>
+                                <div class="elect-slide__desc">
+                                    <p class="elect-slide__title"></p>
+                                    <p class="elect-slide__price"></p>
+                                </div>
+                                <button class="novelties-btn button">
+                                    ПОКАЗАТИ ВСІ
+                                </button>
                             </div>
                         </div>
                         <div class="swiper-buttons">
-                            <div class="swiper-button-prev elect-slider-prev"></div>
-                            <div class="swiper-button-next elect-slider-next"></div>
+                            <div
+                                class="swiper-button-prev novelties-slider-prev"
+                            ></div>
+                            <div
+                                class="swiper-button-next novelties-slider-next"
+                            ></div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="elect__newcoll">
-                <div class="newcoll__wrapper">
-                    <h2 class="newcoll__title title">Нова колекція</h2>
-                    <button class="newcoll__btn button">Каталог</button>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="coll">
-            <div class="coll__img-wrapper">
-                <img class="coll__img" src="./img/2018-collection.png" alt="2018-collection">
-            </div>
-            <div class="coll__content-wrapper">
-                <div class="coll__content">
-                    <h2 class="coll__title title">колекція 2018</h2>
-                    <p class="coll__desc text">
-                        Годинники як інструмент визначення часу давно і надійно прижилися в людській реальності. Романтики та прагматики,
-                        художники та бізнесмени, чоловіки та жінки, дорослі та діти - всі хочуть знати котра година в потрібний момент. Скільки
-                        хвилин пройшло, скільки залишилося, а ще - які саме моделі і якого бренду виблискують на руці у друга, коханої або
-                        конкурента. З давніх часів, коли людина здогадався втикнути в землю паличку та іншою поличкою взявся відміряти рівні
-                        проміжки часу на піску, не вщухають суперечки - яким повинний бути годинник? Наручним, або настільним, або настінним,
-                        або, нарешті, підлоговим? Чому ж кожен діамантик на безеле або шестерінка в механізмі незмінно змушують гордовито
-                        випнутися нижню губу володаря аксесуара, а щоки - роздутися?
-                    </p>
-                    <button class="coll__btn button">переглянути колекцію</button>
-                </div>
-            </div>
-        </section>
-
-        <section class="novelties">
-            <div class="novelties__container">
-                <h2 class="novelties__title title">Нові надходження</h2>
-                <div class="swiper novelties-slider">
-                    <div class="swiper-wrapper novelties-slider__wrapper">
-                        <div class="swiper-slide elect-slide novelties-slide">
-                            <div class="elect-slide__img-wrapper">
-                                <img src="./img/watches/Louis XVI ATHOS.png" alt="Louis XVI ATHOS" class="elect-slide__img">
-                            </div>
-                            <div class="elect-slide__desc">
-                                <p class="elect-slide__title">Louis XVI ATHOS</p>
-                                <p class="elect-slide__price">13 600 грн.</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide elect-slide novelties-slide">
-                            <div class="elect-slide__img-wrapper">
-                                <img src="./img/watches/Carl von Zeyten.png" alt="Carl von Zeyten" class="elect-slide__img">
-                            </div>
-                            <div class="elect-slide__desc">
-                                <p class="elect-slide__title">Carl von Zeyten</p>
-                                <p class="elect-slide__price">16 500 грн.</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide elect-slide novelties-slide">
-                            <div class="elect-slide__img-wrapper">
-                                <img src="./img/watches/JORD AR5905.png" alt="JORD AR5905" class="elect-slide__img">
-                            </div>
-                            <div class="elect-slide__desc">
-                                <p class="elect-slide__title">JORD AR5905</p>
-                                <p class="elect-slide__price">65 000 грн.</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide elect-slide novelties-slide">
-                            <div class="elect-slide__img-wrapper">
-                                <img src="./img/watches/Emporio Armani Sportivo.png" alt="Emporio Armani Sportivo" class="elect-slide__img">
-                            </div>
-                            <div class="elect-slide__desc">
-                                <p class="elect-slide__title">Emporio Armani Sportivo</p>
-                                <p class="elect-slide__price">280 000 грн.</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide elect-slide novelties-slide">
-                            <div class="elect-slide__img-wrapper">
-                                <img src="./img/watches/JORD AR5905.png" alt="JORD AR5905" class="elect-slide__img">
-                            </div>
-                            <div class="elect-slide__desc">
-                                <p class="elect-slide__title">JORD AR5905</p>
-                                <p class="elect-slide__price">65 000 грн.</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide elect-slide novelties-slide">
-                            <div class="elect-slide__img-wrapper">
-                                <img src="./img/watches/Louis XVI ATHOS.png" alt="Louis XVI ATHOS" class="elect-slide__img">
-                            </div>
-                            <div class="elect-slide__desc">
-                                <p class="elect-slide__title">Louis XVI ATHOS</p>
-                                <p class="elect-slide__price">13 600 грн.</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide elect-slide novelties-slide">
-                            <div class="elect-slide__img-wrapper">
-                                <img src="./img/watches/Carl von Zeyten.png" alt="Carl von Zeyten" class="elect-slide__img">
-                            </div>
-                            <div class="elect-slide__desc">
-                                <p class="elect-slide__title">Carl von Zeyten</p>
-                                <p class="elect-slide__price">16 500 грн.</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide elect-slide novelties-slide">
-                            <div class="elect-slide__img-wrapper">
-                                <img src="./img/watches/JORD AR5905.png" alt="JORD AR5905" class="elect-slide__img">
-                            </div>
-                            <div class="elect-slide__desc">
-                                <p class="elect-slide__title"></p>
-                                <p class="elect-slide__price"></p>
-                            </div>
-                            <button class="novelties-btn button">ПОКАЗАТИ ВСІ</button>
+            <section class="posts">
+                <h2 class="posts__title title">Статті та корисна інформація</h2>
+                <div class="post__wrapper">
+                    <div class="post__img-wrapper">
+                        <img
+                            src="./img/blog/post-1.webp"
+                            alt="post-1"
+                            class="post__img"
+                        />
+                    </div>
+                    <div class="post__content">
+                        <h3 class="post__title">ROGER DUBUIS. ЧАСТИНА 1</h3>
+                        <p class="post__desc text">
+                            Цей чемпіон «гіперхорології» став синонімом
+                            надмірності й завдяки своїй радикальній
+                            скелетонізованій архітектурі неодноразово демонструє
+                            пристрасть до годинного вуайєризму. У цій серії з
+                            чотирьох статей описується нещодавня подорож на
+                            мануфактуру, де можна було спостерігати за
+                            виготовленням та оздобленням деталей, а також за
+                            збіркою та регулюванням годинників компанії.
+                        </p>
+                        <div class="post__btn-tags-wrapper">
+                            <button class="post__btn button">читати</button>
+                            <p class="post__tags">#ЕКСКЛЮЗИВ #ПРОБРЕНД</p>
                         </div>
                     </div>
-                    <div class="swiper-buttons">
-                        <div class="swiper-button-prev novelties-slider-prev"></div>
-                        <div class="swiper-button-next novelties-slider-next"></div>
+                </div>
+                <div class="post__wrapper">
+                    <div class="post__img-wrapper">
+                        <img
+                            src="./img/blog/post-2.webp"
+                            alt="post-2"
+                            class="post__img"
+                        />
+                    </div>
+                    <div class="post__content">
+                        <h3 class="post__title">
+                            ІСТОРІЯ ЛЮКСОВИХ ГОДИННИКІВ. ЧАСТИНА 1
+                        </h3>
+                        <p class="post__desc text">
+                            Історія люксових годинників зародилася дуже давно,
+                            вона веде відлік із часів перших годинників у світі.
+                            Тоді годинник був розкішшю, яку могла собі дозволити
+                            лише найвища еліта суспільства. Навіть не всім, хто
+                            має титул і великі гроші, могли виготовити цей
+                            розкішний аксесуар. Власне, з того часу мало що
+                            змінилося.
+                        </p>
+                        <div class="post__btn-tags-wrapper">
+                            <button class="post__btn button">читати</button>
+                            <p class="post__tags">#ЕКСКЛЮЗИВ #IСТОРIЯ</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="posts">
-            <h2 class="posts__title title">Статті та корисна інформація</h2>
-            <div class="post__wrapper">
-                <div class="post__img-wrapper">
-                    <img src="./img/blog/post-1.jpg" alt="post-1" class="post__img">
-                </div>
-                <div class="post__content">
-                    <h3 class="post__title">ROGER DUBUIS. ЧАСТИНА 1</h3>
-                    <p class="post__desc text">
-                        Цей чемпіон «гіперхорології» став синонімом надмірності й завдяки своїй радикальній скелетонізованій архітектурі
-                        неодноразово демонструє пристрасть до годинного вуайєризму. У цій серії з чотирьох статей описується нещодавня подорож
-                        на мануфактуру, де можна було спостерігати за виготовленням та оздобленням деталей, а також за збіркою та регулюванням
-                        годинників компанії.
-                    </p>
-                    <div class="post__btn-tags-wrapper">
-                        <button class="post__btn button">читати</button>
-                        <p class="post__tags">#ЕКСКЛЮЗИВ #ПРОБРЕНД</p>
+                <div class="post__wrapper">
+                    <div class="post__img-wrapper">
+                        <img
+                            src="./img/blog/post-3.webp"
+                            alt="post-3"
+                            class="post__img"
+                        />
                     </div>
-                </div>
-            </div>
-            <div class="post__wrapper">
-                <div class="post__img-wrapper">
-                    <img src="./img/blog/post-2.jpg" alt="post-2" class="post__img">
-                </div>
-                <div class="post__content">
-                    <h3 class="post__title">ІСТОРІЯ ЛЮКСОВИХ ГОДИННИКІВ. ЧАСТИНА 1</h3>
-                    <p class="post__desc text">
-                        Історія люксових годинників зародилася дуже давно, вона веде відлік із часів перших годинників у світі. Тоді годинник
-                        був розкішшю, яку могла собі дозволити лише найвища еліта суспільства. Навіть не всім, хто має титул і великі гроші,
-                        могли виготовити цей розкішний аксесуар. Власне, з того часу мало що змінилося.
-                    </p>
-                    <div class="post__btn-tags-wrapper">
-                        <button class="post__btn button">читати</button>
-                        <p class="post__tags">#ЕКСКЛЮЗИВ #IСТОРIЯ</p>
-                    </div>
-                </div>
-            </div>
-            <div class="post__wrapper">
-                <div class="post__img-wrapper">
-                    <img src="./img/blog/post-3.jpg" alt="post-3" class="post__img">
-                </div>
-                <div class="post__content">
-                    <h3 class="post__title">ВЕЛИКИЙ ТА СМІЛИВИЙ TISSOT PRS 516 CHRONOGRAPH</h3>
-                    <p class="post__desc text">
-                        На початку цього року компанія Tissot оновила модель PRS 516 Automatic Chronograph, але не пішла вінтажним шляхом. На
-                        противагу колекції Heritage із переконливими рімейками вінтажних моделей, PRS 516 – це сучасний хронограф із зухвалим
-                        настроєм, безліччю деталей автоспорту й за чудовою ціною.
-                    </p>
-                    <div class="post__btn-tags-wrapper">
-                        <button class="post__btn button">читати</button>
-                        <p class="post__tags">#ХРОНОГРАФ #TISSOT #ОГЛЯДГОДИННИКIВ</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="partners">
-            <h2 class="partners__title title">Наші партнери</h2>
-            <div class="partners__wrapper">
-                <img src="./img/logos/coco.svg" alt="coco" class="partners__icon">
-                <img src="./img/logos/rolex.svg" alt="rolex" class="partners__icon">
-                <img src="./img/logos/brequel.svg" alt="brequel" class="partners__icon">
-                <img src="./img/logos/haven.svg" alt="haven" class="partners__icon">
-            </div>
-        </section>
-
-        <footer class="footer">
-            <div class="footer__background">
-                <div class="footer__container">
-                    <div class="footer__main">
-                        <div class="footer__about">
-                            <h2 class="footer__title">про компанію</h2>
-                            <p class="footer__desc">
-                                Компанія PORTEN – лідер на українському ринку годинників. На цей час ми об'єднуємо більше сорока
-                                магазинів у різних
-                                куточках України та інтернет-магазин, який став першим в нашому сегменті ринку. Торгова мережа PORTEN –
-                                офіційний
-                                дистриб'ютор більше 50 найвідоміших годинникових марок, починаючи від японської CASIO, закінчуючи
-                                швейцарськими
-                                LONGINES, ZENITH, TAG HEUER. Однак компанія не обмежується лише годинниками – в інтернет-магазині та
-                                бутіках мережі ви
-                                знайдете прекрасні ювелірні вироби від таких іменитих брендів, як SWAROVSKI и CHRISTINA.
+                    <div class="post__content">
+                        <h3 class="post__title">
+                            ВЕЛИКИЙ ТА СМІЛИВИЙ TISSOT PRS 516 CHRONOGRAPH
+                        </h3>
+                        <p class="post__desc text">
+                            На початку цього року компанія Tissot оновила модель
+                            PRS 516 Automatic Chronograph, але не пішла
+                            вінтажним шляхом. На противагу колекції Heritage із
+                            переконливими рімейками вінтажних моделей, PRS 516 –
+                            це сучасний хронограф із зухвалим настроєм, безліччю
+                            деталей автоспорту й за чудовою ціною.
+                        </p>
+                        <div class="post__btn-tags-wrapper">
+                            <button class="post__btn button">читати</button>
+                            <p class="post__tags">
+                                #ХРОНОГРАФ #TISSOT #ОГЛЯДГОДИННИКIВ
                             </p>
                         </div>
-                        <div class="footer__menu--wrapper">
-                            <h2 class="footer__title">Категорії</h2>
-                            <ul class="footer__f-menu">
-                                <li class="f-menu__item"><a href="#" class="f-menu__link">годинники</a></li>
-                                <li class="f-menu__item"><a href="#" class="f-menu__link">запонки</a></li>
-                                <li class="f-menu__item"><a href="#" class="f-menu__link">ремені</a></li>
-                                <li class="f-menu__item"><a href="#" class="f-menu__link">ювелірні вироби</a></li>
-                                <li class="f-menu__item"><a href="#" class="f-menu__link">на замовлення</a></li>
-                                <li class="f-menu__item"><a href="#" class="f-menu__link">браслети</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__subscribe-wrapper">
-                            <h2 class="footer__title">розсилка</h2>
-                            <p class="footer__desc">
-                                Компанія пропонує тільки оригінальну продукцію від найвідоміших світових брендів за найкращою ціною. Ми
-                                дбаємо про
-                                комфорт наших покупців і постійно розширюємо можливості сервісного обслуговування.
-                            </p>
-                            <div class="footer__subscribe">
-                                <input class="subscribe__input" type="email" placeholder="Ваша пошта">
-                                <button class="subscribe__btn button">ПІДПИСАТИСЯ</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="partners">
+                <h2 class="partners__title title">Наші партнери</h2>
+                <div class="partners__wrapper">
+                    <img
+                        src="./img/logos/coco.svg"
+                        alt="coco"
+                        class="partners__icon"
+                    />
+                    <img
+                        src="./img/logos/rolex.svg"
+                        alt="rolex"
+                        class="partners__icon"
+                    />
+                    <img
+                        src="./img/logos/brequel.svg"
+                        alt="brequel"
+                        class="partners__icon"
+                    />
+                    <img
+                        src="./img/logos/haven.svg"
+                        alt="haven"
+                        class="partners__icon"
+                    />
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="footer__background">
+                    <div class="footer__container">
+                        <div class="footer__main">
+                            <div class="footer__about">
+                                <h2 class="footer__title">про компанію</h2>
+                                <p class="footer__desc">
+                                    Компанія PORTEN – лідер на українському
+                                    ринку годинників. На цей час ми об'єднуємо
+                                    більше сорока магазинів у різних куточках
+                                    України та інтернет-магазин, який став
+                                    першим в нашому сегменті ринку. Торгова
+                                    мережа PORTEN – офіційний дистриб'ютор
+                                    більше 50 найвідоміших годинникових марок,
+                                    починаючи від японської CASIO, закінчуючи
+                                    швейцарськими LONGINES, ZENITH, TAG HEUER.
+                                    Однак компанія не обмежується лише
+                                    годинниками – в інтернет-магазині та бутіках
+                                    мережі ви знайдете прекрасні ювелірні вироби
+                                    від таких іменитих брендів, як SWAROVSKI и
+                                    CHRISTINA.
+                                </p>
+                            </div>
+                            <div class="footer__menu--wrapper">
+                                <h2 class="footer__title">Категорії</h2>
+                                <ul class="footer__f-menu">
+                                    <li class="f-menu__item">
+                                        <a href="#" class="f-menu__link"
+                                            >годинники</a
+                                        >
+                                    </li>
+                                    <li class="f-menu__item">
+                                        <a href="#" class="f-menu__link"
+                                            >запонки</a
+                                        >
+                                    </li>
+                                    <li class="f-menu__item">
+                                        <a href="#" class="f-menu__link"
+                                            >ремені</a
+                                        >
+                                    </li>
+                                    <li class="f-menu__item">
+                                        <a href="#" class="f-menu__link"
+                                            >ювелірні вироби</a
+                                        >
+                                    </li>
+                                    <li class="f-menu__item">
+                                        <a href="#" class="f-menu__link"
+                                            >на замовлення</a
+                                        >
+                                    </li>
+                                    <li class="f-menu__item">
+                                        <a href="#" class="f-menu__link"
+                                            >браслети</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__subscribe-wrapper">
+                                <h2 class="footer__title">розсилка</h2>
+                                <p class="footer__desc">
+                                    Компанія пропонує тільки оригінальну
+                                    продукцію від найвідоміших світових брендів
+                                    за найкращою ціною. Ми дбаємо про комфорт
+                                    наших покупців і постійно розширюємо
+                                    можливості сервісного обслуговування.
+                                </p>
+                                <div class="footer__subscribe">
+                                    <input
+                                        class="subscribe__input"
+                                        type="email"
+                                        placeholder="Ваша пошта"
+                                    />
+                                    <button class="subscribe__btn button">
+                                        ПІДПИСАТИСЯ
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="copyright__container">
-                <p class="copyright__info">© 2022 PORTEN, Інтернет-магазин годинників</p>
-                <a class="copyright__agreement" href="#">Угода користувача</a>
-            </div>
-        </footer>
-        
-
-    </main>
-
-</body>
+                <div class="copyright__container">
+                    <p class="copyright__info">
+                        © 2022 PORTEN, Інтернет-магазин годинників
+                    </p>
+                    <a class="copyright__agreement" href="#"
+                        >Угода користувача</a
+                    >
+                </div>
+            </footer>
+        </main>
+    </body>
 </html>

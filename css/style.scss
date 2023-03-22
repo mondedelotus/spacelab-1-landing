@@ -248,7 +248,7 @@ body {
 // main block #1 HERO
 
 .hero {
-    background-image: url(./../img/first-screen.jpg);
+    background-image: url(./../img/first-screen.webp);
     background-position: center;
 
     &__container {
@@ -301,7 +301,7 @@ body {
         // float: right;
         // width: 880px;
         // flex: 0 0 calc(880px/1920px*100%);
-        background-image: url(./../img/new-col.jpg);
+        background-image: url(./../img/new-col.webp);
         background-size: cover;
         @media (max-width: 1680px) {
                 width: 100%;
@@ -656,7 +656,7 @@ body {
 .footer {
 
     &__background {
-        background-image: url(./../img/footer.jpg);
+        background-image: url(./../img/footer.webp);
         background-position: center;
         background-size: cover;
     }

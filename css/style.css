@@ -217,7 +217,7 @@ body._lock {
 }
 
 .hero {
-  background-image: url(./../img/first-screen.jpg);
+  background-image: url(./../img/first-screen.webp);
   background-position: center;
 }
 .hero__container {
@@ -256,7 +256,7 @@ body._lock {
 }
 .elect__newcoll {
   width: 45.83%;
-  background-image: url(./../img/new-col.jpg);
+  background-image: url(./../img/new-col.webp);
   background-size: cover;
 }
 @media (max-width: 1680px) {
@@ -526,7 +526,7 @@ body._lock {
   gap: 30px;
 }
 .footer__background {
-  background-image: url(./../img/footer.jpg);
+  background-image: url(./../img/footer.webp);
   background-position: center;
   background-size: cover;
 }
