@@ -442,7 +442,7 @@ body._lock {
   gap: 30px;
 }
 .footer__background {
-  background-image: url(./img/footer.jpg);
+  background-image: url(/img/footer.jpg);
   background-position: center;
   background-size: cover;
 }
