@@ -386,6 +386,10 @@ body._lock {
 .novelties {
   padding-top: clamp(3.125rem, 1.701rem + 8.14vw, 7.5rem);
 }
+.novelties__title:before {
+  bottom: -39px;
+}
+
 .novelties-slider {
   padding-top: 100px;
 }
@@ -421,6 +425,86 @@ body._lock {
 .novelties-btn {
   position: relative;
   top: -225px;
+}
+
+.posts {
+  padding-top: 63px;
+}
+.posts__title {
+  margin-bottom: 93px;
+}
+.posts__title:before {
+  bottom: -36px;
+}
+.posts__img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 1281px) {
+  .posts__img-wrapper {
+    width: 51.51%;
+  }
+}
+.posts__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.post__wrapper {
+  display: flex;
+  gap: clamp(1.875rem, -12.625rem + 18.13vw, 9.125rem);
+  margin-bottom: 35px;
+}
+@media (max-width: 1280px) {
+  .post__wrapper {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1280px) {
+  .post__img {
+    width: 100%;
+  }
+}
+.post__content {
+  padding-top: 53px;
+  padding-right: 30px;
+  width: 48.49%;
+  max-width: 628px;
+}
+@media (max-width: 1280px) {
+  .post__content {
+    padding-top: 0;
+    max-width: none;
+    width: 100%;
+    padding-left: 30px;
+  }
+}
+.post__title {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.post__desc {
+  padding-top: 14px;
+  padding-bottom: 39px;
+}
+.post__btn-tags-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.post__tags {
+  font-family: "PT Sans";
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .partners {
