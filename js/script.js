@@ -22,13 +22,15 @@ const electSwiper = new Swiper('.elect-slider', {
 		prevEl: '.elect-slider-prev',
 	},
   	breakpoints: {
-		992: {
+		1440: {
 			slidesPerView: 3,
+			spaceBetween: 50,
 		},
-		660: {
+		768: {
 			slidesPerView: 2,
+			spaceBetween: 30,
 		}, 
-		320: {
+		280: {
 			slidesPerView: 1
 		}
 	}

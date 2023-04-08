@@ -1,0 +1,75 @@
+// main block #3 Collection 2018
+
+.coll {
+    order: 3;
+    display: flex;
+
+    @media (max-width: 1440px) {
+        gap: 30px;
+    }
+
+    @media (max-width: 992px) {
+        order: 4;
+    }
+
+    @media (max-width: 768px) {
+        gap: 0;
+        flex-direction: column-reverse;
+    }
+
+    &__img-wrapper {
+        display: flex;
+        // flex: 0 0 calc(984px/1920px*100%);
+        width: 48.75%;
+
+        @media (max-width: 992px) {
+            display: none;
+        }
+    }
+
+    &__content-wrapper {
+        // flex: 0 0 calc(936px/1920px*100%);
+        width: 51.25%;
+        padding: 0 15px;
+
+        @media (max-width: 992px) {
+            background-image: url(../img/2018-collection.webp);
+            background-position: top;
+            background-size: cover;
+            width: 100%;
+        }
+    }
+
+    &__img {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    &__content {
+        // padding-top: 100px;
+        // padding-bottom: 98px;
+        padding-top: clamp(3.125rem, 1.896rem + 7.02vw, 6.25rem);
+        padding-bottom: clamp(4.375rem, 3.687rem + 3.93vw, 6.125rem);
+        max-width: 628px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-weight: 400;
+
+        &:before {
+            bottom: -40px;
+        }
+    }
+
+    &__desc {
+        padding-top: 80px;
+        padding-bottom: 64px;
+        text-align: center;
+    }
+
+    &__btn {}
+}

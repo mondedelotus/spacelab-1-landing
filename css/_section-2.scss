@@ -1,0 +1,122 @@
+// main block #2 Elect season gallery + New collection
+
+.elect {
+    order: 2;
+    display: flex;
+
+    @media (max-width: 992px) {
+        flex-direction: column;
+    }
+
+    &__season {
+        width: 54.17%;
+
+        // float: left;
+        // width: 1040px;
+        // flex: 0 0 calc(1040px/1920px*100%);
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__newcoll {
+        width: 45.83%;
+        // float: right;
+        // width: 880px;
+        // flex: 0 0 calc(880px/1920px*100%);
+        background-image: url(./../img/new-col.webp);
+        background-size: cover;
+
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+}
+
+.season {
+
+    &__wrapper {
+        // padding-top: 93px;
+        // padding-top: clamp(1.875rem, 0.424rem + 8.29vw, 5.813rem);
+        // padding-left: 80px;
+        // padding-left: clamp(1.875rem, 0.724rem + 6.58vw, 5rem);
+        // padding-right: 80px;
+        // padding-right: clamp(1.875rem, 0.724rem + 6.58vw, 5rem);
+        padding: clamp(1.875rem, 0.424rem + 8.29vw, 5.813rem) clamp(1.875rem, 0.724rem + 6.58vw, 5rem);
+    }
+
+    &__title {}
+}
+
+.elect-slider {
+    padding-top: 100px;
+}
+
+.elect-slide {
+    width: 260px;
+
+    &__img-wrapper {
+        padding-top: 27px;
+        padding-bottom: 34px;
+        background-color: #191b1c;
+    }
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__desc {
+        padding-top: 25px;
+        font-family: "Playfair Display", serif;
+    }
+
+    &__title {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    &__price {
+        padding-top: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #d0d0d0;
+    }
+}
+
+.elect-buttons {
+    @media (max-width: 1440px) {
+        display: block;
+    }
+}
+
+.swiper-button-prev {
+    top: 50px;
+    color: #969696;
+}
+
+.swiper-button-next {
+    top: 50px;
+    color: #969696;
+}
+
+.newcoll {
+
+    &__wrapper {
+        // padding-top: 484px;
+        padding-top: clamp(9.625rem, 0.127rem + 54.28vw, 30.25rem);
+        padding-bottom: 99px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 55px;
+    }
+
+    &__title {
+        &:before {
+            bottom: -25px;
+        }
+    }
+
+    &__btn {}
+}

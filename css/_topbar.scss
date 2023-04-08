@@ -1,0 +1,30 @@
+// TOPBAR
+
+.topbar {
+
+    &__container {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        font-size: 12px;
+        background-color: #000;
+    }
+
+    &__info {
+        display: flex;
+        gap: 15px;
+        text-decoration: none;
+        color: #969696;
+    }
+
+    &__login {
+        min-width: 87px;
+        display: flex;
+        gap: 19px;
+        text-decoration: none;
+        color: #969696;
+    }
+}

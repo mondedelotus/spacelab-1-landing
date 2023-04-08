@@ -1,0 +1,32 @@
+// main block #1 HERO
+
+.hero {
+    order: 1;
+    background-image: url(./../img/first-screen.webp);
+    background-position: center;
+
+    &__container {
+        max-width: 730px;
+        // padding-top: 160px;
+        // padding-bottom: 156px;
+        padding-top: clamp(1.875rem, -0.866rem + 15.66vw, 10rem);
+        padding-bottom: clamp(1.875rem, -1.222rem + 17.7vw, 9.75rem);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // gap: 80px
+        gap: clamp(1.875rem, 0.646rem + 7.02vw, 5rem);
+    }
+
+    &__title {
+        display: none;
+    }
+
+    &__logo {}
+
+    &__description {
+        font-size: 16px;
+        text-align: center;
+        color: #fff;
+    }
+}

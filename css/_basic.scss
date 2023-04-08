@@ -1,0 +1,89 @@
+// BASIC
+
+body {
+    font-family: "PT Sans", sans-serif;
+    background-color: #000;
+    position: relative;
+
+    &._lock {
+        overflow: hidden;
+    }
+}
+
+[class*="__container"] {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: -50px;
+        left: 0;
+        right: 0;
+        width: 120px;
+        background-color: #fff;
+        height: 1px;
+        margin: auto;
+    }
+
+    @media (max-width: 300px) {
+        font-size: 30px;
+    }
+}
+
+.button {
+    padding: 12px 28px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+}
+
+.text {
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+* {
+    transition: all 0.2s;
+}
+
+.page {
+    @media (max-width: 992px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.swiper {
+    position: relative;
+    overflow: hidden;
+}
+
+.swiper-wrapper {}
+
+.swiper-buttons {
+    display: none;
+}

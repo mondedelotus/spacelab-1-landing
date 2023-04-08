@@ -1,0 +1,74 @@
+// main block #4 Novelties
+
+.novelties {
+    order: 4;
+    padding-top: clamp(3.125rem, 1.701rem + 8.14vw, 7.5rem);
+    // padding-top: 120px;
+    // padding-bottom: 150px;
+    @media (max-width: 992px) {
+        order: 3;
+    }
+
+    &__container {}
+
+    &__title {
+        &:before {
+            bottom: -39px;
+        }
+    }
+}
+
+.novelties-slider {
+    padding-top: 100px;
+}
+
+.novelties {
+
+    &__container {
+        @media (max-width: 991px) {
+            padding-left: clamp(1.875rem, 0.424rem + 8.29vw, 5.813rem);
+            padding-right: clamp(1.875rem, 0.424rem + 8.29vw, 5.813rem);
+        }
+    }
+
+    &__title {}
+}
+
+.novelties-slider {
+
+    &__wrapper {
+        flex-wrap: wrap;
+
+        @media (max-width: 991px) {
+            flex-wrap: nowrap;
+        }
+    }
+}
+
+.novelties-slide {
+    padding-bottom: 40px;
+    text-align: center;
+
+    @media (min-width:991px) {
+        flex: 1 1 238px;
+    }
+
+    &:last-child img {
+        filter: blur(1.5px);
+    }
+}
+
+.novelties-buttons {
+    @media (max-width: 992px) {
+        display: block;
+    }
+}
+
+.novelties-btn {
+    position: relative;
+    top: -225px;
+}
+
+.novelties-slider-prev {}
+
+.novelties-slider-next {}
