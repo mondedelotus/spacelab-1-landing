@@ -1,6 +1,8 @@
 // TOPBAR
 
 .topbar {
+    position: relative;
+    z-index: 3;
 
     &__container {
         padding-top: 14px;

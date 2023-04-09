@@ -85,6 +85,7 @@
 }
 
 .elect-buttons {
+    display: none;
     @media (max-width: 1440px) {
         display: block;
     }
