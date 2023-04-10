@@ -13,7 +13,9 @@
 
     &__title {
         &:before {
-            bottom: -39px;
+            @media (min-width: 993px) {
+                bottom: -39px;
+            }
         }
     }
 }

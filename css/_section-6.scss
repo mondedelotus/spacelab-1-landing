@@ -5,8 +5,11 @@
     // margin-top: 89px;
     margin-top: clamp(1.875rem, 0.674rem + 6.86vw, 5.563rem);
     margin-bottom: 106px;
+    @media (max-width: 767px) {
+            margin-bottom: 66px;
+        }
 
-    // padding: 0 15px;
+    padding: 0 15px;
     @media(max-width: 660px) {
         padding: 0 clamp(1.875rem, 0.424rem + 8.29vw, 5.813rem);
     }
@@ -22,5 +25,16 @@
         gap: 30px;
     }
 
-    &__icon {}
+    &__icon-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    &__icon {
+        @media (max-width: 767px) {
+            max-width: 80%;
+        }
+    }
 }
