@@ -28,7 +28,9 @@
         gap: 40px;
     }
 
-    &__btn {}
+    &__basket {}
+
+    &__search {}
 }
 
 .menu {
@@ -48,9 +50,10 @@
         &._active {
             left: 0;
         }
+
     }
 
-    &-icon {
+    &__icon {
         display: none;
 
         @media (max-width: 768px) {

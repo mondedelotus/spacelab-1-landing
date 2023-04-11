@@ -19,17 +19,14 @@
 }
 
 .post {
+    display: flex;
+    // justify-content: space-between;
+    // gap: 146px;
+    gap: clamp(1.875rem, -12.625rem + 18.13vw, 9.125rem);
+    margin-bottom: 35px;
 
-    &__wrapper {
-        display: flex;
-        // justify-content: space-between;
-        // gap: 146px;
-        gap: clamp(1.875rem, -12.625rem + 18.13vw, 9.125rem);
-        margin-bottom: 35px;
-
-        @media (max-width: 992px) {
-            flex-direction: column;
-        }
+    @media (max-width: 992px) {
+        flex-direction: column;
     }
 
     &__img-wrapper {

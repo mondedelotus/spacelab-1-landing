@@ -14,25 +14,33 @@
     <body>
         <div class="topbar">
             <div class="topbar__container">
-                <a class="topbar__info" href="tel:88121234567">
-                    <img src="./img/icons/phone.svg" alt="phone" />
-                    <p>
+                <a class="topbar__info topbar__link" href="tel:88121234567">
+                    <img
+                        class="topbar__icon"
+                        src="./img/icons/phone.svg"
+                        alt="phone"
+                    />
+                    <p class="topbar__text">
                         8 (812) 123-45-67 | Працюємо 7 днів на тиждень | 9:00 —
                         18:00
                     </p>
                 </a>
-                <a class="topbar__login" href="#">
-                    <img src="./img/icons/log-in.svg" alt="log-in" />
-                    <p>Вхід / Реєстрація</p>
+                <a class="topbar__login topbar__link" href="#">
+                    <img
+                        class="topbar__icon"
+                        src="./img/icons/log-in.svg"
+                        alt="log-in"
+                    />
+                    <p class="topbar__text">Вхід / Реєстрація</p>
                 </a>
             </div>
         </div>
 
         <header class="header">
             <div class="header__container">
-                <a href="#" class="header__logo"
-                    ><img src="./img/logos/porten-1.svg" alt="Porten"
-                /></a>
+                <a href="#" class="header__logo">
+                    <img src="./img/logos/porten-1.svg" alt="Porten" />
+                </a>
                 <div class="header__navigation">
                     <nav class="header__menu menu">
                         <ul class="menu__body">
@@ -50,14 +58,14 @@
                         </ul>
                     </nav>
                     <div class="header__buttons">
-                        <a href="#" class="basket header__btn"
-                            ><img src="./img/icons/basket.svg" alt="basket"
-                        /></a>
-                        <a href="#" class="search header__btn"
-                            ><img src="./img/icons/search.svg" alt="search"
-                        /></a>
+                        <a href="#" class="header__basket">
+                            <img src="./img/icons/basket.svg" alt="basket" />
+                        </a>
+                        <a href="#" class="header__search">
+                            <img src="./img/icons/search.svg" alt="search" />
+                        </a>
                     </div>
-                    <div class="menu-icon">
+                    <div class="menu__icon">
                         <span></span><span></span><span></span>
                     </div>
                 </div>
@@ -87,8 +95,8 @@
 
             <section class="elect">
                 <div class="elect__season">
-                    <div class="season__wrapper">
-                        <h2 class="season__title title">СЕЗОН 2021/22</h2>
+                    <div class="elect__season-wrapper">
+                        <h2 class="elect__season-title title">СЕЗОН 2021/22</h2>
 
                         <div class="swiper elect-slider">
                             <div class="swiper-wrapper elect-slider__wrapper">
@@ -159,9 +167,13 @@
                     </div>
                 </div>
                 <div class="elect__newcoll">
-                    <div class="newcoll__wrapper">
-                        <h2 class="newcoll__title title">Нова колекція</h2>
-                        <button class="newcoll__btn button">Каталог</button>
+                    <div class="elect__newcoll-wrapper">
+                        <h2 class="elect__newcoll-title title">
+                            Нова колекція
+                        </h2>
+                        <button class="elect__newcoll-btn button">
+                            Каталог
+                        </button>
                     </div>
                 </div>
             </section>
@@ -382,7 +394,7 @@
 
             <section class="posts">
                 <h2 class="posts__title title">Статті та корисна інформація</h2>
-                <div class="post__wrapper">
+                <div class="post">
                     <div class="post__img-wrapper">
                         <img
                             src="./img/blog/post-1.webp"
@@ -412,7 +424,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="post__wrapper">
+                <div class="post">
                     <div class="post__img-wrapper">
                         <img
                             src="./img/blog/post-2.webp"
@@ -442,7 +454,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="post__wrapper">
+                <div class="post">
                     <div class="post__img-wrapper">
                         <img
                             src="./img/blog/post-3.webp"
@@ -479,28 +491,28 @@
             <section class="partners">
                 <h2 class="partners__title title">Наші партнери</h2>
                 <div class="partners__wrapper">
-                    <div class="partners__icon-wrapper">
+                    <div class="partner">
                         <img
                             src="./img/logos/coco.svg"
                             alt="coco"
-                            class="partners__icon"
+                            class="partner__logo"
                         />
                         <img
                             src="./img/logos/rolex.svg"
                             alt="rolex"
-                            class="partners__icon"
+                            class="partner__logo"
                         />
                     </div>
-                    <div class="partners__icon-wrapper">
+                    <div class="partner">
                         <img
                             src="./img/logos/brequel.svg"
                             alt="brequel"
-                            class="partners__icon"
+                            class="partner__logo"
                         />
                         <img
                             src="./img/logos/haven.svg"
                             alt="haven"
-                            class="partners__icon"
+                            class="partner__logo"
                         />
                     </div>
                 </div>
@@ -511,7 +523,7 @@
             <div class="footer__background">
                 <div class="footer__container">
                     <div class="footer__main">
-                        <div class="footer__about">
+                        <section class="footer__about">
                             <h2 class="footer__title">про компанію</h2>
                             <p class="footer__desc">
                                 Компанія PORTEN – лідер на українському ринку
@@ -528,67 +540,59 @@
                                 вироби від таких іменитих брендів, як SWAROVSKI
                                 и CHRISTINA.
                             </p>
-                        </div>
-                        <div class="footer__menu--wrapper">
+                        </section>
+                        <section class="footer__menu">
                             <h2 class="footer__title">Категорії</h2>
-                            <ul class="footer__f-menu">
-                                <li class="f-menu__item">
-                                    <a href="#" class="f-menu__link"
-                                        >годинники</a
-                                    >
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__menu-link">годинники</a>
                                 </li>
-                                <li class="f-menu__item">
-                                    <a href="#" class="f-menu__link">запонки</a>
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__menu-link">запонки</a>
                                 </li>
-                                <li class="f-menu__item">
-                                    <a href="#" class="f-menu__link">ремені</a>
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__menu-link">ремені</a>
                                 </li>
-                                <li class="f-menu__item">
-                                    <a href="#" class="f-menu__link"
-                                        >ювелірні вироби</a
-                                    >
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__menu-link">ювелірні вироби</a>
                                 </li>
-                                <li class="f-menu__item">
-                                    <a href="#" class="f-menu__link"
-                                        >на замовлення</a
-                                    >
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__menu-link">на замовлення</a>
                                 </li>
-                                <li class="f-menu__item">
-                                    <a href="#" class="f-menu__link"
-                                        >браслети</a
-                                    >
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__menu-link">браслети</a>
                                 </li>
                             </ul>
-                        </div>
-                        <div class="footer__subscribe-wrapper">
+                        </section>
+                        <section class="footer__subscribe">
                             <h2 class="footer__title">розсилка</h2>
                             <p class="footer__desc">
                                 Компанія пропонує тільки оригінальну продукцію
-                                від найвідоміших світових брендів за найкращою
-                                ціною. Ми дбаємо про комфорт наших покупців і
-                                постійно розширюємо можливості сервісного
-                                обслуговування.
-                            </p>
-                            <div class="footer__subscribe">
-                                <input
-                                    class="subscribe__input"
-                                    type="email"
-                                    placeholder="Ваша пошта"
-                                />
-                                <button class="subscribe__btn button">
-                                    ПІДПИСАТИСЯ
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                            від найвідоміших світових брендів за найкращою
+                            ціною. Ми дбаємо про комфорт наших покупців і
+                            постійно розширюємо можливості сервісного
+                            обслуговування.
+                        </p>
+                        <form class="footer__subscribe-form">
+                            <input
+                                class="footer__subscribe-input"
+                                type="email"
+                                placeholder="Ваша пошта"
+                            />
+                            <button class="footer__subscribe-btn button">
+                                ПІДПИСАТИСЯ
+                            </button>
+                        </form>
+                    </section>
                 </div>
             </div>
-            <div class="copyright__container">
-                <p class="copyright__info">
-                    © 2022 PORTEN, Інтернет-магазин годинників
-                </p>
-                <a class="copyright__agreement" href="#">Угода користувача</a>
-            </div>
-        </footer>
+        </div>
+        <div class="copyright__container">
+            <p class="copyright__info">
+                © 2022 PORTEN, Інтернет-магазин годинників
+            </p>
+            <a class="copyright__agreement" href="#">Угода користувача</a>
+        </div>
+
     </body>
 </html>

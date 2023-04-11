@@ -94,18 +94,16 @@ body._lock {
   font-size: 12px;
   background-color: #000;
 }
-.topbar__info {
+.topbar__link {
   display: flex;
+  align-items: center;
   gap: 15px;
   text-decoration: none;
   color: #969696;
 }
 .topbar__login {
   min-width: 87px;
-  display: flex;
   gap: 19px;
-  text-decoration: none;
-  color: #969696;
 }
 
 .header {
@@ -147,11 +145,11 @@ body._lock {
     left: 0;
   }
 }
-.menu-icon {
+.menu__icon {
   display: none;
 }
 @media (max-width: 768px) {
-  .menu-icon {
+  .menu__icon {
     display: block;
     height: 18px;
     width: 30px;
@@ -159,7 +157,7 @@ body._lock {
     cursor: pointer;
     z-index: 5;
   }
-  .menu-icon span {
+  .menu__icon span {
     transition: all 0.3s ease 0s;
     top: calc(50% - 1px);
     left: 0;
@@ -168,21 +166,21 @@ body._lock {
     height: 2px;
     background-color: #fff;
   }
-  .menu-icon span:first-child {
+  .menu__icon span:first-child {
     top: 0;
   }
-  .menu-icon span:last-child {
+  .menu__icon span:last-child {
     top: auto;
     bottom: 0;
   }
-  .menu-icon._active span {
+  .menu__icon._active span {
     transform: scale(0);
   }
-  .menu-icon._active span:first-child {
+  .menu__icon._active span:first-child {
     transform: rotate(-45deg);
     top: calc(50% - 1px);
   }
-  .menu-icon._active span:last-child {
+  .menu__icon._active span:last-child {
     transform: rotate(45deg);
     bottom: calc(50% - 1px);
   }
@@ -282,9 +280,10 @@ body._lock {
   }
 }
 
-.season__wrapper {
+.elect__season-wrapper {
   padding: clamp(1.875rem, 0.424rem + 8.29vw, 5.813rem) clamp(1.875rem, 0.724rem + 6.58vw, 5rem);
 }
+
 .elect-slider {
   padding-top: 100px;
 }
@@ -335,7 +334,7 @@ body._lock {
   color: #969696;
 }
 
-.newcoll__wrapper {
+.elect__newcoll-wrapper {
   padding-top: clamp(9.625rem, 0.127rem + 54.28vw, 30.25rem);
   padding-bottom: 99px;
   display: flex;
@@ -343,9 +342,11 @@ body._lock {
   align-items: center;
   gap: 55px;
 }
-.newcoll__title:before {
+
+.elect__newcoll-title:before {
   bottom: -25px;
 }
+
 .coll {
   order: 3;
   display: flex;
@@ -487,13 +488,13 @@ body._lock {
   object-fit: cover;
 }
 
-.post__wrapper {
+.post {
   display: flex;
   gap: clamp(1.875rem, -12.625rem + 18.13vw, 9.125rem);
   margin-bottom: 35px;
 }
 @media (max-width: 992px) {
-  .post__wrapper {
+  .post {
     flex-direction: column;
   }
 }
@@ -586,14 +587,16 @@ body._lock {
   justify-content: center;
   gap: 30px;
 }
-.partners__icon-wrapper {
+
+.partner {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
 }
+
 @media (max-width: 767px) {
-  .partners__icon {
+  .partner__logo {
     max-width: 80%;
   }
 }
@@ -632,29 +635,27 @@ body._lock {
   line-height: 1.5;
   color: #fff;
 }
-.footer__f-menu {
+.footer__menu-list {
   display: flex;
   flex-wrap: wrap;
   row-gap: 20px;
   column-gap: 10px;
 }
-.footer__subscribe {
-  padding-top: 26px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.f-menu__link {
+.footer__menu-link {
   padding: 10px 20px;
   display: inline-block;
   color: #d0d0d0;
   background-color: #0f0f0f;
 }
-.f-menu__link:hover {
+.footer__menu-link:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
-
-.subscribe__input {
+.footer__subscribe-form {
+  padding-top: 26px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer__subscribe-input {
   width: 190px;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -662,7 +663,7 @@ body._lock {
   border: none;
   padding-left: 20px;
 }
-.subscribe__btn {
+.footer__subscribe-btn {
   padding: 10px 20px;
   font-size: 14px;
   border: none;

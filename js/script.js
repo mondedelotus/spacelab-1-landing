@@ -1,6 +1,6 @@
 // Menu
 
-const burger = document.querySelector('.menu-icon');
+const burger = document.querySelector('.menu__icon');
 const menu = document.querySelector('.menu');
 const body = document.body
 
