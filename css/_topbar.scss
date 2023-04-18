@@ -11,14 +11,14 @@
         justify-content: space-between;
         align-items: center;
         gap: 20px;
-        font-size: 12px;
         background-color: #000;
     }
-
+    
     &__link {
         display: flex;
         align-items: center;
         gap: 15px;
+        font-size: 12px;
         text-decoration: none;
         color: #969696;
     }
@@ -27,4 +27,5 @@
         min-width: 87px;
         gap: 19px;
     }
+
 }

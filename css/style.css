@@ -64,10 +64,6 @@ body._lock {
   color: #fff;
 }
 
-* {
-  transition: all 0.2s;
-}
-
 @media (max-width: 992px) {
   .page {
     display: flex;
@@ -91,13 +87,13 @@ body._lock {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  font-size: 12px;
   background-color: #000;
 }
 .topbar__link {
   display: flex;
   align-items: center;
   gap: 15px;
+  font-size: 12px;
   text-decoration: none;
   color: #969696;
 }
@@ -140,6 +136,7 @@ body._lock {
     overflow: auto;
     padding: 20px 0;
     background-color: #1F1F1F;
+    transition: left 0.2s;
   }
   .menu._active {
     left: 0;

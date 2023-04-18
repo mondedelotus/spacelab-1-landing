@@ -45,7 +45,7 @@
         overflow: auto;
         padding: 20px 0;
         background-color: #1F1F1F;
-        // transition: left .2s;
+        transition: left .2s;
 
         &._active {
             left: 0;
