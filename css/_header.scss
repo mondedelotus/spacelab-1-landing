@@ -1,3 +1,35 @@
+// TOPBAR
+
+.topbar {
+    position: relative;
+    z-index: 3;
+    background-color: #000;
+
+    &__container {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 12px;
+        text-decoration: none;
+        color: #969696;
+    }
+
+    &__login {
+        min-width: 87px;
+        gap: 19px;
+    }
+
+}
+
 // HEADER
 
 .header {

@@ -79,6 +79,7 @@ body._lock {
 .topbar {
   position: relative;
   z-index: 3;
+  background-color: #000;
 }
 .topbar__container {
   padding-top: 14px;
@@ -87,7 +88,6 @@ body._lock {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  background-color: #000;
 }
 .topbar__link {
   display: flex;
