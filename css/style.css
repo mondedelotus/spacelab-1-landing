@@ -1015,12 +1015,16 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
   color: #fff;
   border: none;
   padding-left: 20px;
+  z-index: 1;
 }
 .footer__subscribe-btn {
   padding: 10px 20px;
   font-size: 14px;
   border: none;
   background-color: #0f0f0f;
+}
+.footer__subscribe-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .copyright__container {
